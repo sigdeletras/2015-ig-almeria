@@ -1,174 +1,451 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <title>Taller &quot;Fuentes de Información Geográfica para la provincia de Almería! by sigdeletras</title>
+<title>ig_almeria_2</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
 
-  <link rel="stylesheet" href="stylesheets/styles.css">
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-  <script src="javascripts/scale.fix.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <h1>Taller &quot;Fuentes de Información Geográfica para la provincia de Almería&quot;</h1>
-      <p><em>Almería, de mayo de 2015 :: HackLab Almería y Geoinquietos Almería</em></p>
-      <h2>Obtetivo del taller</h2>
-      <p>Hacer un repaso a las principales páginas web oficiales de descarga de información geográfica para la provincia de Almería.</p>
-      <p>Nos centramos en la IG geográfica no en los datos que podemos vincular a la información geográfica.</p>
-      <p>Buscaremos información para poder presentar especialmente una variable.</p>
-      <h2>Datos</h2>
-      <ul>
-        <li><strong>Datos con referencias geográficas</strong>: Domicilio, referencia catastral, distrito, barrio, municipio, mancomunidad...Mejor ejemplo una hoja de cálculo con coordenadas.</li>
-        <li><strong>Datos ćon representación geográfica</strong>. Los datos con representación geográfica necesitando programas específicos como CAD o SIG. </li>
-      </ul>
-      <p>En este taller <strong>nos centraremos en encontrar datos para no tener que generarlos</strong>.</p>
-      <h2>Información en Internet (portales)</h2>
-      <p>Desde hace unos años las administraciones públicas (directivas, leyes y normativas) publican sus repositorio y servicios de información geográfica en Internet.</p>
-      <ul>
-        <li>Datos.</li>
-        <li>Servicios. Pueden usarse como base cartográfica. Ej. WMS (Fotografía áreas, Series cartográficas) o teselas/tiles (Google Map, OpenStreetMap...) </li>
-      </ul>
-      <h2>Formatos</h2>
-      <ul>
-        <li><strong>Shapefile (SHP)</strong>. Formato multiarchivo propietario (ESRI). Formato SIG por excelencia.</li>
-        <li><strong>GeoJSON</strong>. GeoJSON is an open standard format for encoding collections of simple geographical features along with their non-spatial attributes using JavaScript Object Notation.</li>
-        <li>
-          <p><strong>KML</strong>.</p>
-          <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-            &lt;kml xmlns=&quot;http://www.opengis.net/kml/2.2&quot;&gt;
-            &lt;Document&gt;
-            &lt;Placemark&gt;
-            &lt;name&gt;New York City&lt;/name&gt;
-            &lt;description&gt;New York City&lt;/description&gt;
-            &lt;Point&gt;
-            &lt;coordinates&gt;-74.006393,40.714172,0&lt;/coordinates&gt;
-            &lt;/Point&gt;
-            &lt;/Placemark&gt;
-            &lt;/Document&gt;
-            &lt;/kml&gt;
-          </code></pre>
+/* RESET
+=============================================================================*/
 
-        </li>
-        <li>
-          <p><strong>GPX</strong></p>
-        </li>
-        <li><strong>CSV</strong></li>
-        <li>...</li>
-      </ul>
-      <h2>Programas</h2>
-      <h3>Servicios de visores en Web</h3>
-      <ul>
-        <li><a href="https://www.google.com/maps/d/?hl=es">GoogleMap Engine</a></li>
-        <li>Google Drive - <a href="https://support.google.com/fusiontables/answer/2571232">Fusion Tables</a></li>
-        <li><a href="http://umap.openstreetmap.fr/es/">uMap</a> http://www.openstreetmap.org/user/ybon/diary/23611</li>
-        <li><a href="http://cartodb.com/" title="CartoDB">CartoDB</a></li>
-        <li><a href="http://geojson.io/">Geojson.io</a>. Geojson.io describes itself as “a quick, simple tool for creating, viewing, and sharing map”. It has a strong focus on input/output (io) as it supports major formats such GeoJSON, KML, GPX, CSV, TopoJSON, amongst other formats listed on the OpenStreetMap wiki. </li>
-        <li>Github - <a href="https://help.github.com/articles/mapping-geojson-files-on-github/">Mapping geoJSON files on GitHub</a></li>
-      </ul>
-      <h3>Librerías geográficas</h3>
-      <ul>
-        <li>Leaflet</li>
-        <li>OpenLayers</li>
-        <li>Google Maps API</li>
-      </ul>
-      <h3>Software de Escritorio</h3>
-      <ul>
-        <li>Sistemas de Información Geográfica: QGIS, gvSIG, Kosmo...</li>
-      </ul>
-      <h2>Temas (según INSPIRE).</h2>
-      <p><img src="http://www.siose.es/SIOSEtheme-theme/images/imgSiose/Contenidos/inspire_temas.jpg" alt="Anexos INSPIRE" /></p>
-      <p><a href="http://www.siose.es/SIOSEtheme-theme/images/imgSiose/Contenidos/inspire_temas.jpg" title="Fuente: SIOSE">http://www.siose.es/SIOSEtheme-theme/images/imgSiose/Contenidos/inspire_temas.jpg</a></p>
-      <h2>Escalas</h2>
-      <ul>
-        <li>Mundial</li>
-        <li>Nacional</li>
-        <li>Autonómico</li>
-        <li>Provincial</li>
-        <li>Municipal</li>
-        <li>Inframunicipal</li>
-        <li>Dirección postal</li>
-        <li>Coordenada</li>
-      </ul>
-      <h2>Mundial</h2>
-      <p>Buena recopilación en la web <a href="http://inisig.com/cartografia/">INISIG</a></p>
-      <h2>Administración Nacional</h2>
-      <p>Como punto de partida. Web de la [Infraestructura de Datos Espaciales de ESpaña - IDEE] (http://www.idee.es/web/guest/inicio)</p>
-      <ul>
-        <li><a href="http://mapa.datos.gob.es/">Datos Abiertos</a></li>
-        <li>
-          Fomento
-          <a href="">Instituto Geográfico Nacional</a>
-        </li>
-        <li>
-          Agricultura, Alimentación y Medio Ambiente. 
-          <ul>
-            <li><a href="http://www.magrama.gob.es/es/cartografia-y-sig/ide/descargas/default.aspx">IDE MAGRAMA</a></li>
-            <li><a href="http://servicios2.marm.es/sia/visualizacion/descargas/mapas.jsp">SIA Sistema Integrado de Información del agua</a></li>
-          </ul>
-        </li>
-        <li>Economía y Competitividad. Instituto Geológico y Minero de España </li>
-        <li>Hacienda y Administración Pública. Dirección General de Catastro</li>
-      </ul>
-      <h2>Administración Autonómica</h2>
-      <ul>
-        <li><a href="http://www.juntadeandalucia.es/institutodeestadisticaycartografia">Instituto de Estadística y Cartografía de Andalucía</a></li>
-      </ul>
-      <p>Consejerías y organismos dependientes</p>
-      <p>• Consejería de Economía, Innovación, Ciencia y Empleo. Instituto de
-        Estadística y Cartografía de Andalucía.
-        • Consejería de Innovación, Ciencia y Empresa. Sistema de Información
-        Geológico-Minero de Andalucía - SIGMA)
-        • Consejería de Agricultura, Pesca y Medioambiente. Red de Información
-        Ambiental de Andalucía – REDIAM. Ordenación del Territorio –
-        Urbanismo
-        • Nodo Agencia Andaluza de la Energía
-        • Nodo Estadístico</p>
-        <h2>Administración provincial</h2>
-        <ul>
-          <li>Diputación de Alemría. <a href="http://www.dipalme.org/Servicios/Municipios/pueblos.nsf/index?ReadForm&amp;id=000-030">Visor DIPALSIT</a></li>
-          <li>Mancomunidades (<a href="http://www.juntadeandalucia.es/administracionlocalyrelacionesinstitucionales/cms/ocms/portal/AdministracionLocal/ContenidosEspecificos/BancoDatos/resultados.html?clase=5&amp;tipo=0&amp;provincia=110">listado</a>). Mancomunidad de Municipios Valle del Almanzora. <a href="http://www.almanzoramuseo.es/">Visor Almanzora Museo</a></li>
-          <li>Grupos de Desarrollo Rural - GDR. Proyecto del IECA <a href="http://andaluciarural.org/sima-gdr-informacion-cartografica-y-estadistica">Sistema de Información Estadística y Cartográfica para los Grupos de Desarrollo Rural andaluces</a></li>
-        </ul>
-        <h2>Administración local</h2>
-        <h3>Ayuntamiento de Almería</h3>
-        <ul>
-          <li><a href="http://www.almeriacultura.com/index.php?option=com_eventlist&amp;view=venues&amp;Itemid=112">Equipamientos culturales</a>. Coordenadas de localización de los equipamientos.</li>
-          <li><a href="http://www.aytoalmeria.es/www/fuentes/fuentes.asp">Almería ciudad de Fuentes</a>. Plano</li>
-          <li><a href="http://www.aytoalmeria.es/www/estatico/cvecinales.asp">Listado de de centros vecinales</a>. Listado de direcciones que podrían ser geocodificadas.</li>
-          <li><a href="http://www.aytoalmeria.es/www/estatico/pciudadanaasoc.asp">Registro municipal de entidades</a>. Listado de direcciones que podrían ser geocodificadas.</li>
-          <li><a href="http://www.almeriaaccesible.es/playas">Playas accesibles</a>. Coordenadas de localización.</li>
-          <li><a href="http://www.pgou.eu/Almeria.htm">PGOU Almería</a>. Planos en PDF.</li>
-        </ul>
-        <h3>Ayuntamientos de la provincia</h3>
-        <p>Casi inexistencia de información geográfica en Internet. Principalmente vinculada a urbanismo, pero sin formatos geográficos. </p>
-        <p>Grandes posibilidades en el campo del turismo, rutas, localización de servicios municipales...</p>
-        <p>Posibilidad de usar API para construir mapas interactivos en Internet por ejemplo MAPEA, CDAU...</p>
-        <p><strong>Proyecto Geopista</strong> </p>
-        <p><a href="http://www.abla.es/">Abla</a>, <a href="http://www.alcolea.es/">Alcolea</a>, <a href="http://www.alhamadealmeria.es/">Alhama de Almería</a>, <a href="http://www.laujardeandarax.es/">Laujar de Andarax</a>...<strong>No activos</strong></p>
-        <p><strong>Mapa</strong></p>
-        <p><a href="http://www.vera.es/servicios/index.php?page=googlemap">Vera</a>. Mapa en Google Maps</p>
-        <p><strong>Urbanismo</strong></p>
-        <ul>
-          <li><a href="http://www.benahadux.es/Servicios/Informacion/informacion.nsf/lecturacss?ReadForm&amp;id=04024&amp;nv=Informacion&amp;tipo=doc&amp;r=024-P-PGOU-PLANOS">Benahadux</a></li>
-          <li><a href="http://www.elejido.es/tuayto/index.php/urbanismo/pgou">El Ejido</a></li>
-          <li>Huercal-Overa</li>
-          <li><a href="http://www.mojacar.es/">Mojacar</a></li>
-          <li><a href="http://www.aytoroquetas.org/seccion/urbanismo-en-red_358">Roquetas de Mar</a>. Planos georeferencidos.</li>
-          <li><a href="http://urbanismo.vera.es/">Vera</a>. Planos para CAD (DWG)</li>
-          <li><a href="http://www.vicar.es/">Vicar</a></li>
-          <li><a href="http://www.nijar.es/">Nijar</a></li>
-        </ul>
-        <h3>Callejero</h3>
-        <ul>
-          <li><a href="http://www.huercal-overa.es/">Huercal-Overa</a></li>
-          <li><a href="http://www.vicar.es/enlaces/ver/4f4f6094-2ea0-4be5-bb08-0c82c0a8090a">Vicar</a></li>
-        </ul>
-        <h1>Inframunicipal</h1>
-      </div>
-    </body>
-    </html>
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h1>Taller &quot;Fuentes de Información Geográfica para la provincia de Almería&quot;</h1>
+<p><em>Almería, de mayo de 2015 :: HackLab Almería y Geoinquietos Almería</em></p>
+<h2>Obtetivo del taller</h2>
+<p>Hacer un repaso a las principales páginas web oficiales de descarga de información geográfica para la provincia de Almería.</p>
+<p>Nos centramos en la IG geográfica no en los datos que podemos vincular a la información geográfica.</p>
+<p>Buscaremos información para poder presentar especialmente una variable.</p>
+<h2>Datos</h2>
+<ul>
+<li><strong>Datos con referencias geográficas</strong>: Domicilio, referencia catastral, distrito, barrio, municipio, mancomunidad...Mejor ejemplo una hoja de cálculo con coordenadas.</li>
+<li><strong>Datos ćon representación geográfica</strong>. Los datos con representación geográfica necesitando programas específicos como CAD o SIG. </li>
+</ul>
+<p>En este taller <strong>nos centraremos en encontrar datos para no tener que generarlos</strong>.</p>
+<h2>Información en Internet (portales)</h2>
+<p>Desde hace unos años las administraciones públicas (directivas, leyes y normativas) publican sus repositorio y servicios de información geográfica en Internet.</p>
+<ul>
+<li>Datos.</li>
+<li>Servicios. Pueden usarse como base cartográfica. Ej. WMS (Fotografía áreas, Series cartográficas) o teselas/tiles (Google Map, OpenStreetMap...) </li>
+</ul>
+<h2>Formatos</h2>
+<ul>
+<li><strong>Shapefile (SHP)</strong>. Formato multiarchivo propietario (ESRI). Formato SIG por excelencia.</li>
+<li><strong>GeoJSON</strong>. GeoJSON is an open standard format for encoding collections of simple geographical features along with their non-spatial attributes using JavaScript Object Notation.</li>
+<li>
+<p><strong>KML</strong>.</p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;kml xmlns=&quot;http://www.opengis.net/kml/2.2&quot;&gt;
+&lt;Document&gt;
+&lt;Placemark&gt;
+  &lt;name&gt;New York City&lt;/name&gt;
+  &lt;description&gt;New York City&lt;/description&gt;
+  &lt;Point&gt;
+    &lt;coordinates&gt;-74.006393,40.714172,0&lt;/coordinates&gt;
+  &lt;/Point&gt;
+&lt;/Placemark&gt;
+&lt;/Document&gt;
+&lt;/kml&gt;
+</code></pre>
+
+</li>
+<li>
+<p><strong>GPX</strong></p>
+</li>
+<li><strong>CSV</strong></li>
+<li>...</li>
+</ul>
+<h2>Programas</h2>
+<h3>Servicios de visores en Web</h3>
+<ul>
+<li><a href="https://www.google.com/maps/d/?hl=es">GoogleMap Engine</a></li>
+<li>Google Drive - <a href="https://support.google.com/fusiontables/answer/2571232">Fusion Tables</a></li>
+<li><a href="http://umap.openstreetmap.fr/es/">uMap</a> http://www.openstreetmap.org/user/ybon/diary/23611</li>
+<li><a href="http://cartodb.com/" title="CartoDB">CartoDB</a></li>
+<li><a href="http://geojson.io/">Geojson.io</a>. Geojson.io describes itself as “a quick, simple tool for creating, viewing, and sharing map”. It has a strong focus on input/output (io) as it supports major formats such GeoJSON, KML, GPX, CSV, TopoJSON, amongst other formats listed on the OpenStreetMap wiki. </li>
+<li>Github - <a href="https://help.github.com/articles/mapping-geojson-files-on-github/">Mapping geoJSON files on GitHub</a></li>
+</ul>
+<h3>Librerías geográficas</h3>
+<ul>
+<li>Leaflet</li>
+<li>OpenLayers</li>
+<li>Google Maps API</li>
+</ul>
+<h3>Software de Escritorio</h3>
+<ul>
+<li>Sistemas de Información Geográfica: QGIS, gvSIG, Kosmo...</li>
+</ul>
+<h2>Temas (según INSPIRE).</h2>
+<p><img src="http://www.siose.es/SIOSEtheme-theme/images/imgSiose/Contenidos/inspire_temas.jpg" alt="Anexos INSPIRE" /></p>
+<p><a href="http://www.siose.es/SIOSEtheme-theme/images/imgSiose/Contenidos/inspire_temas.jpg" title="Fuente: SIOSE">http://www.siose.es/SIOSEtheme-theme/images/imgSiose/Contenidos/inspire_temas.jpg</a></p>
+<h2>Escalas</h2>
+<ul>
+<li>Mundial</li>
+<li>Nacional</li>
+<li>Autonómico</li>
+<li>Provincial</li>
+<li>Municipal</li>
+<li>Inframunicipal</li>
+<li>Dirección postal</li>
+<li>Coordenada</li>
+</ul>
+<h2>Mundial</h2>
+<p>Buena recopilación en la web <a href="http://inisig.com/cartografia/">INISIG</a></p>
+<h2>Administración Nacional</h2>
+<p>Como punto de partida. Web de la [Infraestructura de Datos Espaciales de ESpaña - IDEE] (http://www.idee.es/web/guest/inicio)</p>
+<ul>
+<li><a href="http://mapa.datos.gob.es/">Datos Abiertos</a></li>
+<li>
+Fomento
+<a href="">Instituto Geográfico Nacional</a>
+</li>
+<li>
+Agricultura, Alimentación y Medio Ambiente. 
+<ul>
+<li><a href="http://www.magrama.gob.es/es/cartografia-y-sig/ide/descargas/default.aspx">IDE MAGRAMA</a></li>
+<li><a href="http://servicios2.marm.es/sia/visualizacion/descargas/mapas.jsp">SIA Sistema Integrado de Información del agua</a></li>
+</ul>
+</li>
+<li>Economía y Competitividad. Instituto Geológico y Minero de España </li>
+<li>Hacienda y Administración Pública. Dirección General de Catastro</li>
+</ul>
+<h2>Administración Autonómica</h2>
+<ul>
+<li><a href="http://www.juntadeandalucia.es/institutodeestadisticaycartografia">Instituto de Estadística y Cartografía de Andalucía</a></li>
+</ul>
+<p>Consejerías y organismos dependientes</p>
+<p>• Consejería de Economía, Innovación, Ciencia y Empleo. Instituto de
+Estadística y Cartografía de Andalucía.
+• Consejería de Innovación, Ciencia y Empresa. Sistema de Información
+Geológico-Minero de Andalucía - SIGMA)
+• Consejería de Agricultura, Pesca y Medioambiente. Red de Información
+Ambiental de Andalucía – REDIAM. Ordenación del Territorio –
+Urbanismo
+• Nodo Agencia Andaluza de la Energía
+• Nodo Estadístico</p>
+<h2>Administración provincial</h2>
+<ul>
+<li>Diputación de Alemría. <a href="http://www.dipalme.org/Servicios/Municipios/pueblos.nsf/index?ReadForm&amp;id=000-030">Visor DIPALSIT</a></li>
+<li>Mancomunidades (<a href="http://www.juntadeandalucia.es/administracionlocalyrelacionesinstitucionales/cms/ocms/portal/AdministracionLocal/ContenidosEspecificos/BancoDatos/resultados.html?clase=5&amp;tipo=0&amp;provincia=110">listado</a>). Mancomunidad de Municipios Valle del Almanzora. <a href="http://www.almanzoramuseo.es/">Visor Almanzora Museo</a></li>
+<li>Grupos de Desarrollo Rural - GDR. Proyecto del IECA <a href="http://andaluciarural.org/sima-gdr-informacion-cartografica-y-estadistica">Sistema de Información Estadística y Cartográfica para los Grupos de Desarrollo Rural andaluces</a></li>
+</ul>
+<h2>Administración local</h2>
+<h3>Ayuntamiento de Almería</h3>
+<ul>
+<li><a href="http://www.almeriacultura.com/index.php?option=com_eventlist&amp;view=venues&amp;Itemid=112">Equipamientos culturales</a>. Coordenadas de localización de los equipamientos.</li>
+<li><a href="http://www.aytoalmeria.es/www/fuentes/fuentes.asp">Almería ciudad de Fuentes</a>. Plano</li>
+<li><a href="http://www.aytoalmeria.es/www/estatico/cvecinales.asp">Listado de de centros vecinales</a>. Listado de direcciones que podrían ser geocodificadas.</li>
+<li><a href="http://www.aytoalmeria.es/www/estatico/pciudadanaasoc.asp">Registro municipal de entidades</a>. Listado de direcciones que podrían ser geocodificadas.</li>
+<li><a href="http://www.almeriaaccesible.es/playas">Playas accesibles</a>. Coordenadas de localización.</li>
+<li><a href="http://www.pgou.eu/Almeria.htm">PGOU Almería</a>. Planos en PDF.</li>
+</ul>
+<h3>Ayuntamientos de la provincia</h3>
+<p>Casi inexistencia de información geográfica en Internet. Principalmente vinculada a urbanismo, pero sin formatos geográficos. </p>
+<p>Grandes posibilidades en el campo del turismo, rutas, localización de servicios municipales...</p>
+<p>Posibilidad de usar API para construir mapas interactivos en Internet por ejemplo MAPEA, CDAU...</p>
+<p><strong>Proyecto Geopista</strong> </p>
+<p><a href="http://www.abla.es/">Abla</a>, <a href="http://www.alcolea.es/">Alcolea</a>, <a href="http://www.alhamadealmeria.es/">Alhama de Almería</a>, <a href="http://www.laujardeandarax.es/">Laujar de Andarax</a>...<strong>No activos</strong></p>
+<p><strong>Mapa</strong></p>
+<p><a href="http://www.vera.es/servicios/index.php?page=googlemap">Vera</a>. Mapa en Google Maps</p>
+<p><strong>Urbanismo</strong></p>
+<ul>
+<li><a href="http://www.benahadux.es/Servicios/Informacion/informacion.nsf/lecturacss?ReadForm&amp;id=04024&amp;nv=Informacion&amp;tipo=doc&amp;r=024-P-PGOU-PLANOS">Benahadux</a></li>
+<li><a href="http://www.elejido.es/tuayto/index.php/urbanismo/pgou">El Ejido</a></li>
+<li>Huercal-Overa</li>
+<li><a href="http://www.mojacar.es/">Mojacar</a></li>
+<li><a href="http://www.aytoroquetas.org/seccion/urbanismo-en-red_358">Roquetas de Mar</a>. Planos georeferencidos.</li>
+<li><a href="http://urbanismo.vera.es/">Vera</a>. Planos para CAD (DWG)</li>
+<li><a href="http://www.vicar.es/">Vicar</a></li>
+<li><a href="http://www.nijar.es/">Nijar</a></li>
+</ul>
+<h3>Callejero</h3>
+<ul>
+<li><a href="http://www.huercal-overa.es/">Huercal-Overa</a></li>
+<li><a href="http://www.vicar.es/enlaces/ver/4f4f6094-2ea0-4be5-bb08-0c82c0a8090a">Vicar</a></li>
+</ul>
+<h1>Inframunicipal</h1>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
