@@ -1,13 +1,13 @@
 {
 "type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3042" } },
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
                                                                                 
 "features": [
-{ "type": "Feature", "properties": { "NOMB_MUS": "Museo de Almería", "MUNICIPIO": "Almería", "COD_MUN": "04013", "PROVINCIA": "Almería", "COD_ENT": "s74" }, "geometry": { "type": "Point", "coordinates": [ 548535.02543113171123, 4077107.845886636059731 ] } },
-{ "type": "Feature", "properties": { "NOMB_MUS": "Museo Pedro Gilabert", "MUNICIPIO": "Arboleas", "COD_MUN": "04017", "PROVINCIA": "Almería", "COD_ENT": "s74" }, "geometry": { "type": "Point", "coordinates": [ 582086.62650281842798, 4134033.685105325654149 ] } },
-{ "type": "Feature", "properties": { "NOMB_MUS": "Museo Antonio Manuel Campoy", "MUNICIPIO": "Cuevas del Almanzora", "COD_MUN": "04035", "PROVINCIA": "Almería", "COD_ENT": "s74" }, "geometry": { "type": "Point", "coordinates": [ 599012.57192319445312, 4128407.588225015439093 ] } },
-{ "type": "Feature", "properties": { "NOMB_MUS": "Museo Casa Ibáñez", "MUNICIPIO": "Olula del Río", "COD_MUN": "04069", "PROVINCIA": "Almería", "COD_ENT": "s74" }, "geometry": { "type": "Point", "coordinates": [ 561853.66228668554686, 4135190.787892346736044 ] } },
-{ "type": "Feature", "properties": { "NOMB_MUS": "Museo Histórico Municipal de Terque", "MUNICIPIO": "Terque", "COD_MUN": "04091", "PROVINCIA": "Almería", "COD_ENT": "s74" }, "geometry": { "type": "Point", "coordinates": [ 535810.189910646528006, 4093141.021785703953356 ] } },
-{ "type": "Feature", "properties": { "NOMB_MUS": "Museo Comarcal Velezano \"Miguel Guirao\"", "MUNICIPIO": "Vélez Rubio", "COD_MUN": "04099", "PROVINCIA": "Almería", "COD_ENT": "s74" }, "geometry": { "type": "Point", "coordinates": [ 581504.580613541882485, 4167248.495565238408744 ] } }
+{ "type": "Feature", "properties": { "NOMB_MUS": "Museo de Almería", "MUNICIPIO": "Almería", "COD_MUN": "04013", "PROVINCIA": "Almería", "COD_ENT": "s74" }, "geometry": { "type": "Point", "coordinates": [ -2.455666535678317, 36.838614657196949 ] } },
+{ "type": "Feature", "properties": { "NOMB_MUS": "Museo Pedro Gilabert", "MUNICIPIO": "Arboleas", "COD_MUN": "04017", "PROVINCIA": "Almería", "COD_ENT": "s74" }, "geometry": { "type": "Point", "coordinates": [ -2.073183250895958, 37.349375581371184 ] } },
+{ "type": "Feature", "properties": { "NOMB_MUS": "Museo Antonio Manuel Campoy", "MUNICIPIO": "Cuevas del Almanzora", "COD_MUN": "04035", "PROVINCIA": "Almería", "COD_ENT": "s74" }, "geometry": { "type": "Point", "coordinates": [ -1.88285849296497, 37.297020500194805 ] } },
+{ "type": "Feature", "properties": { "NOMB_MUS": "Museo Casa Ibáñez", "MUNICIPIO": "Olula del Río", "COD_MUN": "04069", "PROVINCIA": "Almería", "COD_ENT": "s74" }, "geometry": { "type": "Point", "coordinates": [ -2.301513209938649, 37.361373993302927 ] } },
+{ "type": "Feature", "properties": { "NOMB_MUS": "Museo Histórico Municipal de Terque", "MUNICIPIO": "Terque", "COD_MUN": "04091", "PROVINCIA": "Almería", "COD_ENT": "s74" }, "geometry": { "type": "Point", "coordinates": [ -2.597616829220109, 36.983710934711603 ] } },
+{ "type": "Feature", "properties": { "NOMB_MUS": "Museo Comarcal Velezano \"Miguel Guirao\"", "MUNICIPIO": "Vélez Rubio", "COD_MUN": "04099", "PROVINCIA": "Almería", "COD_ENT": "s74" }, "geometry": { "type": "Point", "coordinates": [ -2.076072959995132, 37.648775286355225 ] } }
 ]
 }
