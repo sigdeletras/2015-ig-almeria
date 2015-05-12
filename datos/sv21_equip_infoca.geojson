@@ -1,0 +1,31 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "TIPO": "CEDEFO", "BASE": "Seron", "PROVINCIA": "Almería", "COD_ENT": "s69" }, "geometry": { "type": "Point", "coordinates": [ -2.509408057935353, 37.351063236433887 ] } },
+{ "type": "Feature", "properties": { "TIPO": "CEDEFO", "BASE": "Velez Blanco", "PROVINCIA": "Almería", "COD_ENT": "s69" }, "geometry": { "type": "Point", "coordinates": [ -2.102671327231546, 37.707790017752778 ] } },
+{ "type": "Feature", "properties": { "TIPO": "CEDEFO", "BASE": "Alhama de Almeria", "PROVINCIA": "Almería", "COD_ENT": "s69" }, "geometry": { "type": "Point", "coordinates": [ -2.539849853647392, 36.959558361597956 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PISTA", "BASE": "Gergal", "PROVINCIA": "Almería", "COD_ENT": "s72" }, "geometry": { "type": "Point", "coordinates": [ -2.595470348760349, 37.125363066540586 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "La Jarosa", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.106778937306493, 37.880532699081428 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "El Gabar", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.13141395918346, 37.765606302076804 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "Puerto de Lúcar", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.461927703660289, 37.455324811220819 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "Urrácal", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.348280420272943, 37.406412187602207 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "La Roza", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.223391090186093, 37.506923668016206 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "Calar del Gallinero", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.516439158123195, 37.254814968364684 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "La Tetica", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.413015144928178, 37.252678958005696 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "Pozo de Fiñana", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.809981145714743, 37.210311213113684 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "Monteire", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.932227082973149, 37.137864338531593 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "Morrón del Peral", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.773853293458464, 37.118618576632862 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "El Picacho", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -3.007106449731975, 37.038340662188531 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "Sierra Nevada", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.85601540518096, 37.082961562365348 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "Ohanes", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.747465020848532, 37.055357095208677 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "Julio Verne", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.910833282643839, 36.939580037747966 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "Almerimar-Gádor", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.801515217711402, 36.880355117728634 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "La Matanza", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.6593006343386, 36.863939467715142 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "Sierra Alhamilla", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.300934516179295, 36.995349129085902 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "La Rellana", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -2.082503686106299, 36.838482917583875 ] } },
+{ "type": "Feature", "properties": { "TIPO": "PUESTO DE VIGILANCIA", "BASE": "Sierra Almagro", "PROVINCIA": "Almería", "COD_ENT": "s73" }, "geometry": { "type": "Point", "coordinates": [ -1.851010688636739, 37.362027029772634 ] } },
+{ "type": "Feature", "properties": { "TIPO": "CENTRO OPERATIVO PROVINCIAL", "BASE": "Almería", "PROVINCIA": "Almería", "COD_ENT": "s70" }, "geometry": { "type": "Point", "coordinates": [ -2.461280337550828, 36.835311909223627 ] } }
+]
+}

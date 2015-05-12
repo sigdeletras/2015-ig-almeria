@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "NOMBRE": "Albox", "MUNICIPIO": "Albox", "COD_INE": "04006", "PROVINCIA": "Almería", "COD_ENT": "s32" }, "geometry": { "type": "Point", "coordinates": [ -2.149742183416554, 37.388436123028889 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Almería - Altamira", "MUNICIPIO": "Almería", "COD_INE": "04013", "PROVINCIA": "Almería", "COD_ENT": "s32" }, "geometry": { "type": "Point", "coordinates": [ -2.458045312049913, 36.838891309027922 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Almería - San Lorenzo", "MUNICIPIO": "Almería", "COD_INE": "04013", "PROVINCIA": "Almería", "COD_ENT": "s32" }, "geometry": { "type": "Point", "coordinates": [ -2.457598336194486, 36.846877385808575 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Almería - Periferia", "MUNICIPIO": "Almería", "COD_INE": "04013", "PROVINCIA": "Almería", "COD_ENT": "s32" }, "geometry": { "type": "Point", "coordinates": [ -2.448787859429363, 36.844286883905291 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Berja", "MUNICIPIO": "Berja", "COD_INE": "04029", "PROVINCIA": "Almería", "COD_ENT": "s32" }, "geometry": { "type": "Point", "coordinates": [ -2.949625389931215, 36.846219782622278 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Canjáyar", "MUNICIPIO": "Canjáyar", "COD_INE": "04030", "PROVINCIA": "Almería", "COD_ENT": "s32" }, "geometry": { "type": "Point", "coordinates": [ -2.740509863002099, 37.010046196874953 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Cantoria", "MUNICIPIO": "Cantoria", "COD_INE": "04031", "PROVINCIA": "Almería", "COD_ENT": "s32" }, "geometry": { "type": "Point", "coordinates": [ -2.19034261046175, 37.353258026740058 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "El Ejido", "MUNICIPIO": "El Ejido", "COD_INE": "04902", "PROVINCIA": "Almería", "COD_ENT": "s32" }, "geometry": { "type": "Point", "coordinates": [ -2.814566379240221, 36.775861331569949 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Huércal-Overa", "MUNICIPIO": "Huércal-Overa", "COD_INE": "04053", "PROVINCIA": "Almería", "COD_ENT": "s32" }, "geometry": { "type": "Point", "coordinates": [ -1.940024254321028, 37.393384136068775 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Olula del Río", "MUNICIPIO": "Olula del Río", "COD_INE": "04069", "PROVINCIA": "Almería", "COD_ENT": "s32" }, "geometry": { "type": "Point", "coordinates": [ -2.298014684431259, 37.353436324095028 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Tabernas", "MUNICIPIO": "Tabernas", "COD_INE": "04088", "PROVINCIA": "Almería", "COD_ENT": "s32" }, "geometry": { "type": "Point", "coordinates": [ -2.395397078381293, 37.049646380567438 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Vélez-Rubio", "MUNICIPIO": "Vélez-Rubio", "COD_INE": "04099", "PROVINCIA": "Almería", "COD_ENT": "s32" }, "geometry": { "type": "Point", "coordinates": [ -2.07724684149384, 37.651476671548174 ] } }
+]
+}

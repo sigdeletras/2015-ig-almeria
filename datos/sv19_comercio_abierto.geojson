@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "NOMBRE": "Asociación de Empresarios y Profesionales de Albox  Valle del Almanzora", "COD_MUN": "04800", "COD_ENT": "s44" }, "geometry": { "type": "Point", "coordinates": [ -2.145850563085076, 37.38815255581666 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Asociación de Comerciantes del Centro Comercial Abierto Almeria Centro", "COD_MUN": "04001", "COD_ENT": "s44" }, "geometry": { "type": "Point", "coordinates": [ -2.463511924506382, 36.83907449757529 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Asociación de Empresarios y Comerciantes de Cuevas del Almanzora (ASEMCAL)", "COD_MUN": "04610", "COD_ENT": "s44" }, "geometry": { "type": "Point", "coordinates": [ -1.878341675786598, 37.295318904008511 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Asociación de Comerciantes Urbanización de Roquetas de Mar", "COD_MUN": "04740", "COD_ENT": "s44" }, "geometry": { "type": "Point", "coordinates": [ -2.614274454168465, 36.762672649500495 ] } }
+]
+}

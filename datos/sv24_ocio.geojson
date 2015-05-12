@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "NOMBRE": "Area recreativa la Reserva", "MUNICIPIO": "Níjar", "COD_MUN": "04066", "PROVINCIA": "Almería", "COD_ENT": "s80" }, "geometry": { "type": "Point", "coordinates": [ -2.043494782142846, 36.846268456555727 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Mariopark", "MUNICIPIO": "Roquetas de Mar", "COD_MUN": "04079", "PROVINCIA": "Almería", "COD_ENT": "s80" }, "geometry": { "type": "Point", "coordinates": [ -2.60384990498931, 36.782998780416172 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Mini Hollywood", "MUNICIPIO": "Tabernas", "COD_MUN": "04088", "PROVINCIA": "Almería", "COD_ENT": "s80" }, "geometry": { "type": "Point", "coordinates": [ -2.430769790334092, 37.019989062996018 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Parque Acuático Vera", "MUNICIPIO": "Vera", "COD_MUN": "04100", "PROVINCIA": "Almería", "COD_ENT": "s80" }, "geometry": { "type": "Point", "coordinates": [ -1.812415714818584, 37.217157811469448 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Aquarium de Roquetas", "MUNICIPIO": "Roquetas de Mar", "COD_MUN": "04079", "PROVINCIA": "Almería", "COD_ENT": "s80" }, "geometry": { "type": "Point", "coordinates": [ -2.604417796467106, 36.781863177632012 ] } }
+]
+}

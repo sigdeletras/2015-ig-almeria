@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "NOMBRE": "Centro penitenciario \"El Acebuche\"", "CAPACIDAD": "567", "OCUP_MEDIA": "1150", "MUNICIPIO": "Almería", "COD_MUN": "04013", "PROVINCIA": "Almería", "COD_ENT": "s95" }, "geometry": { "type": "Point", "coordinates": [ -2.302860886892903, 36.867632028275025 ] } }
+]
+}

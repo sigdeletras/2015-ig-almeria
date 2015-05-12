@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3042" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de Adra", "MUNICIPIO": "Adra", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 498008.739978289988358, 4067006.88823974179104 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de Almería", "MUNICIPIO": "Almería", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 548070.164105243748054, 4077050.179059060756117 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Junta Provincial de Turismo de Almería", "MUNICIPIO": "Almería", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 547559.140630979789421, 4077057.184796599205583 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina de Información Turística de la Junta de Andalucía Almería", "MUNICIPIO": "Almería", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 547760.147271129884757, 4076732.172960103489459 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de Berja", "MUNICIPIO": "Berja", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 504416.429296058486216, 4077659.54820073209703 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de Carboneras", "MUNICIPIO": "Carboneras", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 598328.737250967416912, 4095145.566301392856985 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo del Centro de visitantes de Laujar de Andarax", "MUNICIPIO": "Láujar", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 508544.445271088043228, 4093933.257444701623172 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de Cuevas del Almanzora", "MUNICIPIO": "Cuevas del Almanzora", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 599142.36799458344467, 4128279.5277143814601 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de El Ejido", "MUNICIPIO": "El Ejido", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 516691.714041523693595, 4069991.432544056326151 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de Garrucha", "MUNICIPIO": "Garrucha", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 604697.131524001481012, 4115978.933147626928985 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de Mojácar", "MUNICIPIO": "Mojácar", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 602029.960907598258927, 4111086.828379826620221 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de Roquetas de Mar", "MUNICIPIO": "Roquetas de Mar", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 533857.83626115845982, 4065179.353019366972148 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de  San José", "MUNICIPIO": "San José", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 605227.17910065012984, 4118204.987513458356261 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de Sorbas", "MUNICIPIO": "Sorbas", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 577558.016203693696298, 4105921.976197076961398 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de Tabernas", "MUNICIPIO": "Tabernas", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 554273.095858807209879, 4101499.28814216516912 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de Vélez-Blanco", "MUNICIPIO": "Vélez-Blanco", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 579570.874848192557693, 4172299.43178278952837 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de Vélez-Rubio", "MUNICIPIO": "Vélez-Rubio", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 581429.970719772158191, 4167064.344526234548539 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Oficina municipal de Turismo de Vera", "MUNICIPIO": "Vera", "COD_ENT": "s81" }, "geometry": { "type": "Point", "coordinates": [ 605227.17910065012984, 4118204.987513458356261 ] } }
+]
+}

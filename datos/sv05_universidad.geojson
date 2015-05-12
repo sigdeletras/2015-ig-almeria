@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "NOMBRE": "Aula de extensión de la UNED", "MUNICIPIO": "El Ejido", "COD_MUN": "04902", "PROVINCIA": "Almería", "COD_ENT": "s10" }, "geometry": { "type": "Point", "coordinates": [ -2.818740451896773, 36.769455502698811 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Universidad de Almería", "MUNICIPIO": "Almería", "COD_MUN": "04013", "PROVINCIA": "Almería", "COD_ENT": "s10" }, "geometry": { "type": "Point", "coordinates": [ -2.403095953559369, 36.829238784665755 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Centro Asociado de la UNED", "MUNICIPIO": "Almería", "COD_MUN": "04013", "PROVINCIA": "Almería", "COD_ENT": "s10" }, "geometry": { "type": "Point", "coordinates": [ -2.467437119856994, 36.839452505233595 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Aula de extensión de la UNED", "MUNICIPIO": "Huercal-Overa", "COD_MUN": "04053", "PROVINCIA": "Almería", "COD_ENT": "s10" }, "geometry": { "type": "Point", "coordinates": [ -1.942890964959124, 37.398389383747045 ] } }
+]
+}
