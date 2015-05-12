@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3042" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "NOM_PARQUE": "Consorcio de Bomberos del Poniente. Almería", "COD_MUN": "04902", "MUNICIPIO": "El Ejido", "PROVINCIA": "Almería", "COD_ENT": "s84" }, "geometry": { "type": "Point", "coordinates": [ 521935.413200000475626, 4071461.084199999459 ] } },
+{ "type": "Feature", "properties": { "NOM_PARQUE": "Servicio de Extinción de Incendios, Salvamento y Protección Civil", "COD_MUN": "04013", "MUNICIPIO": "Almería", "PROVINCIA": "Almería", "COD_ENT": "s84" }, "geometry": { "type": "Point", "coordinates": [ 548835.915000000386499, 4078324.5309 ] } },
+{ "type": "Feature", "properties": { "NOM_PARQUE": "Consorcio de Extinción de Incendios y Salvamento del Levante Almeriense", "COD_MUN": "04093", "MUNICIPIO": "Turre", "PROVINCIA": "Almería", "COD_ENT": "s84" }, "geometry": { "type": "Point", "coordinates": [ 598764.949499999755062, 4112824.741299998946488 ] } },
+{ "type": "Feature", "properties": { "NOM_PARQUE": "Servicio de Extinción  de Incendios y Salvamento de la Zona Norte", "COD_MUN": "04006", "MUNICIPIO": "Albox", "PROVINCIA": "Almería", "COD_ENT": "s84" }, "geometry": { "type": "Point", "coordinates": [ 575099.065699999919, 4137566.8222 ] } }
+]
+}
