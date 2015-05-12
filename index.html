@@ -13,7 +13,9 @@
 
 <body>
   <h1 style="text-align: center;">Taller "Fuentes de Información Geográfica para la provincia de Almería"</h1>
+  <p><img src="images/sigdeletras.png" alt="" height="50" width="50"/></p>
   <p style="text-align: center;"><b>Patricio Soriano - <a href="http://www.sigdeletras.com" target="_blank">SIGdeletras.com - <a href="https://twitter.com/SIGdeletras" target="_blank" >@sigdeletras</a></a></b></p>
+  
   <p style="text-align: center;"><em>Almería, 12 de mayo de 2015 :: <a href="http://hacklabalmeria.net/" target="_blank">HackLab Almería</a> y Geoinquietos Almería</em></p>
   <h2>Objetivo del taller</h2>
   <ul>
@@ -26,7 +28,7 @@
     <li><strong>Datos con referencias geográficas</strong> o con geometría explícita. El ejemplo más sencillo puede ser una hoja de cálculo con coordenadas o direcciones postales</li>
   </ul>
   
-  <div style="text-align:center;" ><img src="images/listadoalmeria.png" alt="" />
+  <div style="text-align:center;" ><img id="imgcentro" src="images/listadoalmeria.png" alt="" />
 <p><em>Listado de centros vecinales. Web Ayuntamiento de Almería</em></p>
   </div>
 
@@ -72,14 +74,14 @@
   <li><strong>Shapefile (SHP)</strong>. Formato multiarchivo propietario (ESRI). Formato SIG por excelencia.</li>
   </ul>
 
-<div style="text-align:center;" ><img src="http://help.arcgis.com/es/arcgisdesktop/10.0/help/0056/GUID-AFEE52B3-BBE8-4F33-A55B-5CFD5106B80C-web.png" alt="" />
+<div style="text-align:center;" ><img id="imgcentro" src="http://help.arcgis.com/es/arcgisdesktop/10.0/help/0056/GUID-AFEE52B3-BBE8-4F33-A55B-5CFD5106B80C-web.png" alt="" />
 <p><em>Estructura ficheros de un archivo shape. <a href="http://help.arcgis.com/es/arcgisdesktop/10.0/help/0056/GUID-AFEE52B3-BBE8-4F33-A55B-5CFD5106B80C-web.png" target="_blank">ARCGIS Resource center</a></em></p>
 </div>
 
 <ul>  
   <li><strong>GeoJSON</strong>. GeoJSON is an open standard format for encoding collections of simple geographical features along with their non-spatial attributes using JavaScript Object Notation.</li>
     <p></p>
-    <div style="text-align:center;" ><a href="images/geojson.png" target="_blank"><img src="images/geojson.png"/></a>
+    <div style="text-align:center;" ><a href="images/geojson.png" target="_blank"><img id="imgcentro" src="images/geojson.png"/></a>
     <p><em>Ejemplo de fichero GeoJSON</em></p>
     </div>
     <li>
@@ -111,7 +113,7 @@
     <li><a href="https://www.google.com/maps/d/?hl=es">GoogleMap Engine</a></li>
   </ul>
   
-  <div style="text-align:center;" ><img src="http://www.gislounge.com/wp-content/uploads/2013/03/google-engine-lite.png" alt="www.gislounge.com" />
+  <div style="text-align:center;" ><img id="imgcentro" src="http://www.gislounge.com/wp-content/uploads/2013/03/google-engine-lite.png" alt="www.gislounge.com" />
     <p><em>Ejemplo de mapa creado con GoogleMap Engine en www.gislounge.com</em></p></div>
     <ul>
     <li><a href="https://www.google.com/maps/d/?hl=es">Google Earth. Generación de KML</a></li>
@@ -121,7 +123,7 @@
     <li><a href="http://umap.openstreetmap.fr/es/">uMap</a>. Permite crear visores de mapas con la base de OpenStreetMap. Gran variedad de opciones relativas a simbología, presentación de datos.</li>
   </ul>
   
-  <div style="text-align:center;" ><img src="images/umap.png" alt="uMap" />
+  <div style="text-align:center;" ><img id="imgcentro" src="images/umap.png" alt="uMap" />
 <p><em>Página de inicio de uMap</em></p></div>
   </div>
   <ul>
@@ -153,7 +155,7 @@
    <!--BLOQUE Formatos de datoa-->
   <h2>Temáticas (según INSPIRE).</h2>
   
-  <div style="text-align:center;" ><img src="http://www.siose.es/SIOSEtheme-theme/images/imgSiose/Contenidos/inspire_temas.jpg" alt="Anexos INSPIRE" />
+  <div style="text-align:center;" ><img id="imgcentro" src="http://www.siose.es/SIOSEtheme-theme/images/imgSiose/Contenidos/inspire_temas.jpg" alt="Anexos INSPIRE" />
   <p><em>Temas INSPIRE. http://www.siose.es/ </em></p>
   </div>
    <!--BLOQUE -->
@@ -178,7 +180,7 @@
     <h3>Catastro</h3>
     <p>Descarga mediante certificado electrónico o DNI-e de datos catastrales de los municios de España. Los datos para descargar están en formato shape. También pueden descargarse información alfanumérica en formato CAT. <a href="https://www.sedecatastro.gob.es/OVCFrames.aspx?TIPO=TIT&a=desdat">Enlace a la Sede de Catastro</a></p>
     
-    <div style="text-align:center;" ><img src="images/catastro.PNG" alt="Descarga catastro" />
+    <div style="text-align:center;" ><img id="imgcentro" src="images/catastro.PNG" alt="Descarga catastro" />
     <p><em>Descargas de información geográfica del Catastro</em></p>
     </div>
     <h3>OpenStreetMap</h3>
@@ -230,7 +232,7 @@
 
       </ul>
       <p></p>
-      <div style="text-align:center;" ><img src="images/ablaresiduos.PNG" alt="KML Residuos Abla" />
+      <div style="text-align:center;" ><img id="imgcentro" src="images/ablaresiduos.PNG" alt="KML Residuos Abla" />
       <p><i>KML con la localización de recogidas de residuos de Abla. Web EIEL Almería</i></p>
       </div>
       <p></p>
@@ -243,7 +245,7 @@
         <li>Acceso al Sistema de Información Geoestadística de Andalucía (SIGEA)</li>
       </ul>
       
-      <div style="text-align:center;" ><img src="http://andaluciarural.org/images/banner_top_cartografia.jpg" alt="" /></div>
+      <div style="text-align:center;" ><img id="imgcentro" src="http://andaluciarural.org/images/banner_top_cartografia.jpg" alt="" /></div>
       
     </ul>
    <!--BLOQUE -->
@@ -254,20 +256,20 @@
     <li>Red de Información Ambiental de Andalucía – <a href="http://www.juntadeandalucia.es/medioambiente/site/rediam/menuitem.aedc2250f6db83cf8ca78ca731525ea0/?vgnextoid=7b3ba7215670f210VgnVCM1000001325e50aRCRD&lr=lang_es" target="_blank">REDIAM</a>.</li>
     </ul>
   
-  <div style="text-align:center;" ><img src="images/ieca.png" alt="" />
+  <div style="text-align:center;" ><img id="imgcentro" src="images/ieca.png" alt="" />
   <p><i>Apartados de cartografía del IECA</i></p></div>
   <h2>DERA</h2>
   <p><b>Datos Espaciales de Referencia de Andalucía para escalas intermedias -DERA-</b> repertorio de información geográfica completo y actualizado sobre el territorio andaluz. Organizado por temáticas incluyo gran cantidad de capas con sus correspondientes metadatos. Son distribuidos en archivos shape. <a href="http://www.juntadeandalucia.es/institutodeestadisticaycartografia/DERA/index.htm">Acceso</a></p>
   
-  <div style="text-align:center;" ><img src="images/dera.png" alt="" />
+  <div style="text-align:center;" ><img id="imgcentro" src="images/dera.png" alt="" />
   <p><i>Capas del DERA</i></p>
 </div>
   <h2>Descarga de Mapas y Ortofotografías de Andalucía (Line@)</h2>
   <p><b>LINEAv2</b> es una aplicación web para la consulta y descarga de la cartografia disponible por la Junta de Andalucía. <a href="http://www.juntadeandalucia.es/institutodeestadisticaycartografia/lineav2/web/">Acceso</a></p>
   
-  <!-- <div style="text-align:center;" ><img src="images/linea.png" alt="" /></div> -->
+  <!-- <div style="text-align:center;" ><img id="imgcentro" src="images/linea.png" alt="" /></div> -->
    <div style="text-align:center;" >
-  <img src="images/linea.png" alt="" />
+  <img id="imgcentro" src="images/linea.png" alt="" />
   <p><i>Series disponibles en LINEA</i></p>
 </div>
   <!--BLOQUE -->
@@ -278,7 +280,7 @@
     <li>Instituto Geográfico Nacional</a> - Miniterio de Fomento. <a href="http://centrodedescargas.cnig.es/CentroDescargas/">Centro de Descargas es un sitio web del Centro Nacional de Información Geográfica (CNIG) </a> Sobre todo bases cartográficas escalas 1:25000, 1:50000, 1:200000</li>
     <p></p>
     <div style="text-align:center;" >
-      <img src="images/cnig.png" alt="" />
+      <img id="imgcentro" src="images/cnig.png" alt="" />
       <p><i>Productos del CNIG para su descarga.</i></p>
     </div>
     <p></p>
@@ -287,14 +289,14 @@
     <li><a href="http://www.magrama.gob.es/es/cartografia-y-sig/ide/descargas/default.aspx">IDE MAGRAMA</a></li>
     <p></p>
     <div style="text-align:center;" >
-      <img src="images/magrama.png" alt="" />
+      <img id="imgcentro" src="images/magrama.png" alt="" />
       <p><i>Temáticas de la IDE MAGRAMA</i></p>
     </div>
     <p></p>
     <li><a href="http://servicios2.marm.es/sia/visualizacion/descargas/mapas.jsp">SIA Sistema Integrado de Información del agua</a></li>
     <p></p>
     <div style="text-align:center;" >
-      <img src="images/sia.png" alt="" />
+      <img id="imgcentro" src="images/sia.png" alt="" />
       <p><i>Capas del SIA</i></p>
     </div>
     <p></p>

@@ -281,6 +281,15 @@ table tr:nth-child(2n) {
 =============================================================================*/
 
 img {
+  
+  
+  margin: 5px;
+  display:block;
+  margin:auto;
+  
+}
+
+#imgcentro{
   max-width: 85%;
   margin: 20px;
   display:block;
@@ -289,3 +298,6 @@ img {
   -moz-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
   box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
 }
+
+
+
