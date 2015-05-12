@@ -19,23 +19,27 @@
   <ul>
     <li>Haremos un repaso a las <strong>principales páginas web oficiales de descarga de información geográfica para la provincia de Almería</strong>.</li>
     <li>Nos centramos en la <strong>Información Geográfica</strong>, no en los datos que podemos vincular a la información geográfica.</li>
-    <!--<li>Buscaremos datos geográficos a los que se les pueda añadir datos no espaciales mediante un identificador como por ejemplo el código INE del directorio, el código postal...</u></li>-->
+    <!--<li>Buscaremos datos geográficos a los que se les pueda añadir datos no espaciales mediante un identificador como por ejemplo l código INE del directorio, el código postal...</u></li>-->
   </ul>
   <h2>Datos geográficos</h2>
   <ul>
     <li><strong>Datos con referencias geográficas</strong> o con geometría explícita. El ejemplo más sencillo puede ser una hoja de cálculo con coordenadas o direcciones postales</li>
   </ul>
   
-  <div style="text-align:center;" ><img src="images/listadoalmeria.png" alt="" /></div>
+  <div style="text-align:center;" ><img src="images/listadoalmeria.png" alt="" />
+<p><em>Listado de centros vecinales. Web Ayuntamiento de Almería</em></p>
+  </div>
 
-  <p><em>Listado de centros vecinales. Web Ayuntamiento de Almería</em></p>
+  
   <ul>
     <li><strong>Datos con representación geográfica</strong> o con geometría implícita. Modelos lógicos con datos geográficos. La mejor forma de visualziarlos es sobre un mapa. Necesitan programas específicos (SIG) para su generación/edición.</li>
   </ul>
-  <div style="text-align:center;" ><iframe width="100%" height="500px" frameBorder="0" src="http://umap.openstreetmap.fr/es/map/centros-vecinales-almeria_39435?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>/</div>
+  <div style="text-align:center;" >
+    <iframe width="100%" height="500px" frameBorder="0" src="http://umap.openstreetmap.fr/es/map/centros-vecinales-almeria_39435?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
+    <p><em>Mapa con la localización de los centros vecinales de Almería. <a href="http://umap.openstreetmap.fr/es/map/centros-vecinales-almeria_39435">Ver pantalla completa</a></em></p>
+   </div>
 
-  <p><em>Mapa con la localización de los centros vecinales de Almería. <a href="http://umap.openstreetmap.fr/es/map/centros-vecinales-almeria_39435">Ver pantalla completa</a></em></p>
- 
+  
  <!--BLOQUE Información  Geográfica-->
   <h2>Información Geográfica en Internet (portales)</h2>
   <p>Desde hace unos años las administraciones públicas (directivas, leyes y normativas) publican sus repositorios y servicios de información geográfica en Internet.</p>
@@ -68,13 +72,18 @@
   <li><strong>Shapefile (SHP)</strong>. Formato multiarchivo propietario (ESRI). Formato SIG por excelencia.</li>
   </ul>
 
-<div style="text-align:center;" ><img src="http://help.arcgis.com/es/arcgisdesktop/10.0/help/0056/GUID-AFEE52B3-BBE8-4F33-A55B-5CFD5106B80C-web.png" alt="" /></div>
-<p><a href="http://help.arcgis.com/es/arcgisdesktop/10.0/help/0056/GUID-AFEE52B3-BBE8-4F33-A55B-5CFD5106B80C-web.png" target="_blank">ARCGIS Resource center</a></p>
+<div style="text-align:center;" ><img src="http://help.arcgis.com/es/arcgisdesktop/10.0/help/0056/GUID-AFEE52B3-BBE8-4F33-A55B-5CFD5106B80C-web.png" alt="" />
+<p><em>Estructura ficheros de un archivo shape. <a href="http://help.arcgis.com/es/arcgisdesktop/10.0/help/0056/GUID-AFEE52B3-BBE8-4F33-A55B-5CFD5106B80C-web.png" target="_blank">ARCGIS Resource center</a></em></p>
+</div>
+
 <ul>  
   <li><strong>GeoJSON</strong>. GeoJSON is an open standard format for encoding collections of simple geographical features along with their non-spatial attributes using JavaScript Object Notation.</li>
-    <div style="text-align:center;" ><a href="images/geojson.png" target="_blank"><img src="images/geojson.png"/></a></div>
+    <p></p>
+    <div style="text-align:center;" ><a href="images/geojson.png" target="_blank"><img src="images/geojson.png"/></a>
+    <p><em>Ejemplo de fichero GeoJSON</em></p>
+    </div>
     <li>
-      <p><strong>KML</strong>.</p>
+      <p><strong>KML</strong>. KML (del acrónimo en inglés Keyhole Markup Language) es un lenguaje de marcado basado en XML para representar datos geográficos en tres dimensiones. Fue desarrollado para ser manejado con Keyhole LT, precursor de Google Earth (Google adquirió Keyhole LT en octubre de 2004).</p>
       <pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
         &lt;kml xmlns="http://www.opengis.net/kml/2.2"&gt;
           &lt;Document&gt;
@@ -93,7 +102,7 @@
       <p><strong>GPX</strong>. GPX es un esquema XML pensado para transferir datos GPS entre aplicaciones. Se puede usar para describir puntos (waypoints), recorridos (tracks), y rutas (routes).</p>
     </li>
     <li><strong>CSV</strong>. Los archivos CSV  son un tipo de documento en formato abierto sencillo para representar datos en forma de tabla, en las que las columnas se separan por comas y las filas por saltos de línea. Pueden incorporar información geográfica mediante columnas de coordenadas X e y o bien en formato <a href="http://es.wikipedia.org/wiki/Well_Known_Text">WKT</a>.</li>
-    <li><b>GML</b>, acrónimo inglés de Geography Markup Language (Lenguaje de Marcado Geográfico). Es un sublenguaje de XML descrito como una gramática en XML Schema para el modelaje, transporte y almacenamiento de información geográfica.</li>
+    <li><b>GML</b>. Acrónimo inglés de Geography Markup Language (Lenguaje de Marcado Geográfico). Es un sublenguaje de XML descrito como una gramática en XML Schema para el modelaje, transporte y almacenamiento de información geográfica.</li>
   </ul>
    <!--BLOQUE-->
   <h2>Programas</h2>
@@ -102,7 +111,8 @@
     <li><a href="https://www.google.com/maps/d/?hl=es">GoogleMap Engine</a></li>
   </ul>
   
-  <div style="text-align:center;" ><img src="http://www.gislounge.com/wp-content/uploads/2013/03/google-engine-lite.png" alt="www.gislounge.com" /></div>
+  <div style="text-align:center;" ><img src="http://www.gislounge.com/wp-content/uploads/2013/03/google-engine-lite.png" alt="www.gislounge.com" />
+    <p><em>Ejemplo de mapa creado con GoogleMap Engine en www.gislounge.com</em></p></div>
     <ul>
     <li><a href="https://www.google.com/maps/d/?hl=es">Google Earth. Generación de KML</a></li>
   </ul>
@@ -111,16 +121,24 @@
     <li><a href="http://umap.openstreetmap.fr/es/">uMap</a>. Permite crear visores de mapas con la base de OpenStreetMap. Gran variedad de opciones relativas a simbología, presentación de datos.</li>
   </ul>
   
-  <div style="text-align:center;" ><img src="images/umap.png" alt="uMap" /></div>
+  <div style="text-align:center;" ><img src="images/umap.png" alt="uMap" />
+<p><em>Página de inicio de uMap</em></p></div>
+  </div>
   <ul>
     <li><a href="http://cartodb.com/" title="CartoDB">CartoDB</a>. Sercicios de mapas en la nube. </li>
   </ul>
-  <iframe width='100%' height='500' frameborder='0' src="https://sigdeletras.cartodb.com/viz/336c862e-f309-11e4-a1c8-0e8dde98a187/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
+  <div style="text-align:center;" ><iframe width='100%' height='500' frameborder='0' src="https://sigdeletras.cartodb.com/viz/336c862e-f309-11e4-a1c8-0e8dde98a187/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen>
+    
+  </iframe>
+<p><em>Ejemplo con CartoDB. Mapa del Festival de los Patios de Córdoba 2015</em></p>
+</div>
   <ul>
     <li><a href="http://geojson.io/">Geojson.io</a>. Geojson.io describes itself as “a quick, simple tool for creating, viewing, and sharing map”. Eficaz para la generación rápida de información geográfica. Soporte de formatos GeoJSON, KML, GPX, CSV o TopoJSON. </li>
   </ul>
+  <div style="text-align:center;" >
   <iframe frameborder="0" width="100%" height="500" src="http://bl.ocks.org/d/269a7dd4cf989631ffd9"></iframe>
+  <p><em>Visor geojson.io</em></p>
+</div>
 
   <h3>Librerías geográficas</h3>
   <ul>
@@ -135,9 +153,9 @@
    <!--BLOQUE Formatos de datoa-->
   <h2>Temáticas (según INSPIRE).</h2>
   
-  <div style="text-align:center;" ><img src="http://www.siose.es/SIOSEtheme-theme/images/imgSiose/Contenidos/inspire_temas.jpg" alt="Anexos INSPIRE" /></div>
-  <p><a href="http://www.siose.es/SIOSEtheme-theme/images/imgSiose/Contenidos/inspire_temas.jpg" title="Fuente: SIOSE">http://www.siose.es/SIOSEtheme-theme/images/imgSiose/Contenidos/inspire_temas.jpg</a></p>
-  
+  <div style="text-align:center;" ><img src="http://www.siose.es/SIOSEtheme-theme/images/imgSiose/Contenidos/inspire_temas.jpg" alt="Anexos INSPIRE" />
+  <p><em>Temas INSPIRE. http://www.siose.es/ </em></p>
+  </div>
    <!--BLOQUE -->
   <h2>Escalas</h2>
   <ul>
@@ -152,19 +170,27 @@
     <h2>Inframunicipal</h2>
     <h3>CDAU</h3>
     <p>Proyecto Callejero Digital de Andalucía Unificado. Conjunto de datos alfanuméricos y geográficos de las vías y los portales de todos los municipios de Andalucía. Permite usar acceder a los datos (portales, tramos y vías) mediante un visor pero también la descarga de datos por municipios. La dirección de descarga es <a href="http://www.callejerodeandalucia.es/descargas/" target="_blank">http://www.callejerodeandalucia.es/descargas/</a>. Los formatos de descarga son GML o SHP.</p>
-    <iframe src="http://www.ideandalucia.es/mapshup/?wmcfile=http://www.callejerodeandalucia.es/wmc/context_cdau_callejero.xml*Callejero,http://www.callejerodeandalucia.es/wmc/context_cdau_hibrido.xml*H%EDbrido&controls=panzoombar,layerswitcher,mouse,navtoolbar,overviewmap&maxextent=581498.78707277,4134126.5057644,582808.74588065,4134748.7361982&theme=default" width="100%" height="500" scrolling='no' margin='0' marginheight='0' frameborder='1'></iframe>
+    <div style="text-align:center;" >
+    <iframe src="http://www.ideandalucia.es/mapshup/?wmcfile=http://www.callejerodeandalucia.es/wmc/context_cdau_callejero.xml*Callejero,http://www.callejerodeandalucia.es/wmc/context_cdau_hibrido.xml*H%EDbrido&controls=panzoombar,layerswitcher,mouse,navtoolbar,overviewmap&maxextent=581498.78707277,4134126.5057644,582808.74588065,4134748.7361982&theme=default" width="100%" height="500" scrolling='no' margin='0' marginheight='0' frameborder='1'>
+    </iframe>
+    <p><em>Ejemplo de datos CDAU. Arboleas</em></p>
+      </div>
     <h3>Catastro</h3>
     <p>Descarga mediante certificado electrónico o DNI-e de datos catastrales de los municios de España. Los datos para descargar están en formato shape. También pueden descargarse información alfanumérica en formato CAT. <a href="https://www.sedecatastro.gob.es/OVCFrames.aspx?TIPO=TIT&a=desdat">Enlace a la Sede de Catastro</a></p>
     
-    <div style="text-align:center;" ><img src="images/catastro.PNG" alt="Descarga catastro" /></div>
+    <div style="text-align:center;" ><img src="images/catastro.PNG" alt="Descarga catastro" />
+    <p><em>Descargas de información geográfica del Catastro</em></p>
+    </div>
     <h3>OpenStreetMap</h3>
     <ul>
     <li>Proyecto mapa mundial colaborativo. <a href="http://www.openstreetmap.org/#map" target="_blank">http://www.openstreetmap.org/#map</a></li>
     <li>Pueden obtenerse los datos (API, Overpass-Turbo) de gran cantidad de <a href="http://wiki.openstreetmap.org/wiki/ES:Map_Features" target="_blank">temáticas.</a></li>
     <li>Grandes posibilidades para la administración local. <a href="http://www.sigdeletras.com/documentos" target="_blank">Presentación #jornadageo2015.</a></li>
     </ul>
+     <div style="text-align:center;" >
     <iframe src="http://overpass-turbo.eu/map.html?Q=%2F*%0AThis%20has%20been%20generated%20by%20the%20overpass-turbo%20wizard.%0AThe%20original%20search%20was%3A%0A%E2%80%9Camenity%3Dpharmacy%20in%20Almeria%E2%80%9D%0A*%2F%0A%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%2F%2F%20fetch%20area%20%E2%80%9CAlmeria%E2%80%9D%20to%20search%20in%0Aarea(3600347796)-%3E.searchArea%3B%0A%2F%2F%20gather%20results%0A(%0A%20%20%2F%2F%20query%20part%20for%3A%20%E2%80%9Camenity%3Dpharmacy%E2%80%9D%0A%20%20node%5B%22amenity%22%3D%22pharmacy%22%5D(area.searchArea)%3B%0A%20%20way%5B%22amenity%22%3D%22pharmacy%22%5D(area.searchArea)%3B%0A%20%20relation%5B%22amenity%22%3D%22pharmacy%22%5D(area.searchArea)%3B%0A)%3B%0A%2F%2F%20print%20results%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B" width="100%" height="500" scrolling='no' margin='0' marginheight='0' frameborder='1'></iframe>
     <p><i>Consulta de farmacias en Almería en OpenStreetMap con Overpass-turbo</i></p>
+  </div>
       <!--BLOQUE -->
     <h2>Administración local</h2>
     <ul>
@@ -204,7 +230,9 @@
 
       </ul>
       <p></p>
-      <div style="text-align:center;" ><img src="images/ablaresiduos.PNG" alt="KML Residuos Abla" /></div>
+      <div style="text-align:center;" ><img src="images/ablaresiduos.PNG" alt="KML Residuos Abla" />
+      <p><i>KML con la localización de recogidas de residuos de Abla. Web EIEL Almería</i></p>
+      </div>
       <p></p>
       <li><b>Mancomunidades</b> (<a href="http://www.juntadeandalucia.es/administracionlocalyrelacionesinstitucionales/cms/ocms/portal/AdministracionLocal/ContenidosEspecificos/BancoDatos/resultados.html?clase=5&amp;tipo=0&amp;provincia=110">listado</a>). Mancomunidad de Municipios Valle del Almanzora. <a href="http://www.almanzoramuseo.es/">Visor Almanzora Museo</a></li>
       <li><b>Grupos de Desarrollo Rural - GDR</b>. Proyecto del IECA <a href="http://andaluciarural.org/sima-gdr-informacion-cartografica-y-estadistica">Sistema de Información Estadística y Cartográfica para los Grupos de Desarrollo Rural andaluces con datos sobre:</a></li>
@@ -226,16 +254,22 @@
     <li>Red de Información Ambiental de Andalucía – <a href="http://www.juntadeandalucia.es/medioambiente/site/rediam/menuitem.aedc2250f6db83cf8ca78ca731525ea0/?vgnextoid=7b3ba7215670f210VgnVCM1000001325e50aRCRD&lr=lang_es" target="_blank">REDIAM</a>.</li>
     </ul>
   
-  <div style="text-align:center;" ><img src="images/ieca.png" alt="" /></div>
+  <div style="text-align:center;" ><img src="images/ieca.png" alt="" />
+  <p><i>Apartados de cartografía del IECA</i></p></div>
   <h2>DERA</h2>
   <p><b>Datos Espaciales de Referencia de Andalucía para escalas intermedias -DERA-</b> repertorio de información geográfica completo y actualizado sobre el territorio andaluz. Organizado por temáticas incluyo gran cantidad de capas con sus correspondientes metadatos. Son distribuidos en archivos shape. <a href="http://www.juntadeandalucia.es/institutodeestadisticaycartografia/DERA/index.htm">Acceso</a></p>
   
-  <div style="text-align:center;" ><img src="images/dera.png" alt="" /></div>
+  <div style="text-align:center;" ><img src="images/dera.png" alt="" />
+  <p><i>Capas del DERA</i></p>
+</div>
   <h2>Descarga de Mapas y Ortofotografías de Andalucía (Line@)</h2>
   <p><b>LINEAv2</b> es una aplicación web para la consulta y descarga de la cartografia disponible por la Junta de Andalucía. <a href="http://www.juntadeandalucia.es/institutodeestadisticaycartografia/lineav2/web/">Acceso</a></p>
   
   <!-- <div style="text-align:center;" ><img src="images/linea.png" alt="" /></div> -->
+   <div style="text-align:center;" >
   <img src="images/linea.png" alt="" />
+  <p><i>Series disponibles en LINEA</i></p>
+</div>
   <!--BLOQUE -->
   <h2>Administración Nacional</h2>
   <p>Como punto de partida. Web de la <a href="http://www.idee.es/web/guest/inicio">Infraestructura de Datos Espaciales de ESpaña - IDEE</a></p>
@@ -243,17 +277,26 @@
     <li>Portal de <a href="http://mapa.datos.gob.es/">datos.gob.es </a>(Open Data del Sector Público español)</li>
     <li>Instituto Geográfico Nacional</a> - Miniterio de Fomento. <a href="http://centrodedescargas.cnig.es/CentroDescargas/">Centro de Descargas es un sitio web del Centro Nacional de Información Geográfica (CNIG) </a> Sobre todo bases cartográficas escalas 1:25000, 1:50000, 1:200000</li>
     <p></p>
-    <div style="text-align:center;" ><img src="images/cnig.png" alt="" /></div>
+    <div style="text-align:center;" >
+      <img src="images/cnig.png" alt="" />
+      <p><i>Productos del CNIG para su descarga.</i></p>
+    </div>
     <p></p>
     <li>Ministerio Agricultura, Alimentación y Medio Ambiente. </li>
     <ul>
     <li><a href="http://www.magrama.gob.es/es/cartografia-y-sig/ide/descargas/default.aspx">IDE MAGRAMA</a></li>
     <p></p>
-    <div style="text-align:center;" ><img src="images/magrama.png" alt="" /></div>
+    <div style="text-align:center;" >
+      <img src="images/magrama.png" alt="" />
+      <p><i>Temáticas de la IDE MAGRAMA</i></p>
+    </div>
     <p></p>
     <li><a href="http://servicios2.marm.es/sia/visualizacion/descargas/mapas.jsp">SIA Sistema Integrado de Información del agua</a></li>
     <p></p>
-    <div style="text-align:center;" ><img src="images/sia.png" alt="" /></div>
+    <div style="text-align:center;" >
+      <img src="images/sia.png" alt="" />
+      <p><i>Capas del SIA</i></p>
+    </div>
     <p></p>
     
     <li><a href="http://info.igme.es/catalogo/default.aspx">Catálogo de Información Geocientífica del IGME</a> Instituto Geológico y Minero de España. </li>
