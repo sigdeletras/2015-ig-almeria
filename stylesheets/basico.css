@@ -208,21 +208,21 @@ pre code, pre tt {
 }
 
 kbd {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    background-color: #DDDDDD;
-    background-image: linear-gradient(#F1F1F1, #DDDDDD);
-    background-repeat: repeat-x;
-    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
-    border-image: none;
-    border-radius: 2px 2px 2px 2px;
-    border-style: solid;
-    border-width: 1px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 10px;
-    padding: 1px 4px;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #DDDDDD;
+  background-image: linear-gradient(#F1F1F1, #DDDDDD);
+  background-repeat: repeat-x;
+  border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+  border-image: none;
+  border-radius: 2px 2px 2px 2px;
+  border-style: solid;
+  border-width: 1px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 10px;
+  padding: 1px 4px;
 }
 
 /* QUOTES
@@ -282,5 +282,10 @@ table tr:nth-child(2n) {
 
 img {
   max-width: 85%;
-  margin: 25px;
+  margin: 20px;
+  display:block;
+  margin:auto;
+  -webkit-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
 }
