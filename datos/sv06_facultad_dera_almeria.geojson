@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "UNIVERSIDA": "Almería", "CAMPUS": "La Cañada", "NOMBRE": "Ciencias de Educación, Enfermería y Fisioterapia", "COD_ENT": "s11" }, "geometry": { "type": "Point", "coordinates": [ -2.403498802067018, 36.829970487184482 ] } },
+{ "type": "Feature", "properties": { "UNIVERSIDA": "Almería", "CAMPUS": "La Cañada", "NOMBRE": "Ciencias Económicas y Empresariales", "COD_ENT": "s11" }, "geometry": { "type": "Point", "coordinates": [ -2.403987586545745, 36.829771645828757 ] } },
+{ "type": "Feature", "properties": { "UNIVERSIDA": "Almería", "CAMPUS": "La Cañada", "NOMBRE": "Esc. Politéc. Superior y Ciencias Experimentales", "COD_ENT": "s11" }, "geometry": { "type": "Point", "coordinates": [ -2.406463105378086, 36.828740974937084 ] } },
+{ "type": "Feature", "properties": { "UNIVERSIDA": "Almería", "CAMPUS": "La Cañada", "NOMBRE": "Derecho", "COD_ENT": "s11" }, "geometry": { "type": "Point", "coordinates": [ -2.403632990385938, 36.830398000304967 ] } },
+{ "type": "Feature", "properties": { "UNIVERSIDA": "Almería", "CAMPUS": "La Cañada", "NOMBRE": "Humanidades y Psicología", "COD_ENT": "s11" }, "geometry": { "type": "Point", "coordinates": [ -2.404263452091554, 36.830249306359889 ] } },
+{ "type": "Feature", "properties": { "UNIVERSIDA": "Almería", "CAMPUS": "Centro", "NOMBRE": "E.U.A. Relaciones Laborales", "COD_ENT": "s11" }, "geometry": { "type": "Point", "coordinates": [ -2.454136741927607, 36.84077319236625 ] } }
+]
+}

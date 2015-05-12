@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "NOMBRE": "Complejo Hospitalario de Especialidades Torrecárdenas", "NOMBRE2": "Hospital de Especialidades Torrecárdenas", "GESTION": "S.A.S.", "COD_MUN": "04013", "CONCERTADO": "Pub", "COD_ENT": "s05" }, "geometry": { "type": "Point", "coordinates": [ -2.441260209313643, 36.862703932574277 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Complejo Hospitalario de Especialidades Torrecárdenas", "NOMBRE2": "Hospital Provincial Sta. Maria Magdalena", "GESTION": "S.A.S.", "COD_MUN": "04013", "CONCERTADO": "Pub", "COD_ENT": "s05" }, "geometry": { "type": "Point", "coordinates": [ -2.468047955112231, 36.836830722296618 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Complejo Hospitalario de Especialidades Torrecárdenas", "NOMBRE2": "Hospital de la Cruz Roja de Almeria", "GESTION": "S.A.S.", "COD_MUN": "04013", "CONCERTADO": "Pub", "COD_ENT": "s05" }, "geometry": { "type": "Point", "coordinates": [ -2.452117627621356, 36.843889657249171 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Hospital Comarcal la Inmaculada", "NOMBRE2": "Hospital Comarcal la Inmaculada", "GESTION": "S.A.S.", "COD_MUN": "04053", "CONCERTADO": "Pub", "COD_ENT": "s05" }, "geometry": { "type": "Point", "coordinates": [ -1.941799524922668, 37.401253057017229 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Hospital de Poniente", "NOMBRE2": "Hospital de Poniente (epcs)", "GESTION": "Consejería de Salud", "COD_MUN": "04902", "CONCERTADO": "Pub", "COD_ENT": "s05" }, "geometry": { "type": "Point", "coordinates": [ -2.803553263874707, 36.753279439896446 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Hospital de Alta Resolución El Toyo", "NOMBRE2": "Hospital de Alta Resolución El Toyo", "GESTION": "Consejería de Salud", "COD_MUN": "04013", "CONCERTADO": "Pub", "COD_ENT": "s05" }, "geometry": { "type": "Point", "coordinates": [ -2.312568061062957, 36.850853976859291 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Hospital Virgen del Mar", "NOMBRE2": null, "GESTION": "Privado", "COD_MUN": "04013", "CONCERTADO": "Si", "COD_ENT": "s06" }, "geometry": { "type": "Point", "coordinates": [ -2.451629862073074, 36.84830870996867 ] } },
+{ "type": "Feature", "properties": { "NOMBRE": "Clínica  Mediterráneo", "NOMBRE2": null, "GESTION": "Privado", "COD_MUN": "04013", "CONCERTADO": "Si", "COD_ENT": "s06" }, "geometry": { "type": "Point", "coordinates": [ -2.435318074096823, 36.820515015996136 ] } }
+]
+}
